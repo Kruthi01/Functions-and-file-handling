@@ -19,7 +19,9 @@ def readfi(filename):
 #open it in read mode
     r=open(filename,'r')
 #print its content
-    print(r)
-
-readfi(filename="/Users/ruthiraj/Documents/PYTHON WORKSPACE/file1.txt")
+    return r.read()
+if __name__='__main__':
+filename="/Users/ruthiraj/Documents/PYTHON WORKSPACE/file1.txt"
+#Calling its function
+print(readfi(filename))
 

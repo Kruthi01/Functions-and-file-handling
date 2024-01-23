@@ -22,6 +22,6 @@ def readfi(filename):
     return r.read()
 if __name__='__main__':
 filename="/Users/ruthiraj/Documents/PYTHON WORKSPACE/file1.txt"
-#Calling its function
+#Calling the function with argument
 print(readfi(filename))
 

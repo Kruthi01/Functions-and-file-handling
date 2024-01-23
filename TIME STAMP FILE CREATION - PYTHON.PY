@@ -1,7 +1,7 @@
 '''
 1. Creating text file with content as current time stamp in it
 '''
-#improting datatime library
+#importing datatime library
 import datetime
 #creating text file inside my documents and file name as file1 in appending mode
 f=open("/Users/ruthiraj/Documents/file2.txt",'a')
@@ -14,8 +14,11 @@ print (datetime.datetime.now()," ")
 '''
 2. Python function to read a text file, that function will take name of the file and display its content
 '''
+#Function that takes file name
 def readfi(filename):
+#open it in read mode
     r=open(filename,'r')
+#print its content
     print(r)
 
 readfi(filename="/Users/ruthiraj/Documents/PYTHON WORKSPACE/file1.txt")
